@@ -24,7 +24,7 @@ def main():
         with open(output_filename, 'w', encoding='utf-8') as output_file:
             output_file.write(encrypted_text)
 
-        print("Encryption completed. Check", output_filename)
+        print("The encryption completed has been completed.", output_filename)
 
     except FileNotFoundError:
         print("Error: File not found.")
