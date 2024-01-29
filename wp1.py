@@ -26,5 +26,13 @@ def main():
 
         print("Encryption completed. Check", output_filename)
 
+    except FileNotFoundError:
+        print("Error: File not found.")
+    except Exception as e:
+        print("Error:", e)
+
+if __name__ == "__main__":
+    main()
+
 
 
